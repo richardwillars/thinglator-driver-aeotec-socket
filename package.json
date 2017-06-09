@@ -1,0 +1,39 @@
+{
+  "name": "thinglator-driver-aeotec-socket",
+  "license": "MIT",
+  "description": "Allows the Thinglator platform to talk to Aeotec z-wave sockets",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Richard Willars",
+      "email": "richard@richardwillars.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardwillars/thinglator-aeotec-socket.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "mockery": "^1.7.0",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3"
+  },
+  "peerDependencies": {
+    "thinglator": "0.x"
+  },
+  "scripts": {
+    "test": "npm run lint && node_modules/.bin/_mocha --recursive",
+    "test:watch": "node_modules/.bin/_mocha --recursive --watch",
+    "lint": "eslint --ext js ."
+  },
+  "engines": {
+    "node": ">=6.10.0"
+  }
+}
