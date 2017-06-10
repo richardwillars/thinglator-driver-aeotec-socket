@@ -1,4 +1,4 @@
-class AeotecSwitch {
+class AeotecSocket {
     constructor() {
         this.driverSettings = {};
         this.nodeIdCache = {};
@@ -22,7 +22,7 @@ class AeotecSwitch {
     }
 
     getType() {
-        return 'switch';
+        return 'socket';
     }
 
     getInterface() {
@@ -114,4 +114,4 @@ class AeotecSwitch {
 
 }
 
-module.exports = AeotecSwitch;
+module.exports = AeotecSocket;

@@ -8,7 +8,7 @@ const expect = chai.expect; // eslint-disable-line no-unused-vars
 chai.use(sinonChai);
 
 const driverName = 'aeotec-socket';
-const driverType = 'switch';
+const driverType = 'socket';
 const driverInterface = 'zwave';
 
 const Driver = require('../index');
