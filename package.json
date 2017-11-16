@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/richardwillars/thinglator-driver-aeotec-socket.git"
   },
+  "peerDependencies": {
+    "thinglator": "1.x"
+  },
   "devDependencies": {
     "eslint": "^4.7.0",
     "eslint-config-airbnb-base": "^12.1.0",
