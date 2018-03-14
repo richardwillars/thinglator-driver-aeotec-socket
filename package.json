@@ -3,7 +3,7 @@
   "license": "MIT",
   "description":
     "Allows the Thinglator platform to talk to Aeotec z-wave sockets",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "maintainers": [
     {
       "name": "Richard Willars",
